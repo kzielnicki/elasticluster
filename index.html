@@ -289,7 +289,7 @@ user_key_name=elasticluster
 user_key_private=~/.ssh/id_rsa
 user_key_public=~/.ssh/id_rsa.pub
 
-[setup/ipython]
+[setup/ansible_ipython]
 provider=ansible
 controller_groups=ipython_controller,ipython_engine
 worker_groups=ipython_engine
@@ -299,7 +299,7 @@ cloud=google
 login=google
 setup_provider=ansible_ipython
 security_group=all_tcp_ports
-image_id=debian-7-wheezy-v20130723
+image_id=debian-7-wheezy-v20141021
 flavor=n1-standard-1
 controller_nodes=1
 worker_nodes=10
